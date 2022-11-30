@@ -25,7 +25,7 @@ public class ApiBibliotecaApplication {
             @Override
             public void
                     addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("https://appfrontbiblioteca.web.app/");
+                registry.addMapping("/**").allowedOrigins("https://appfrontbiblioteca-cf9ac.web.app/");
             }
         };
     }
@@ -38,7 +38,7 @@ public class ApiBibliotecaApplication {
 
         corsConfiguration.setAllowCredentials(true);
 
-        corsConfiguration.setAllowedOrigins(Arrays.asList("https://appfrontbiblioteca.web.app/"));
+        corsConfiguration.setAllowedOrigins(Arrays.asList("https://appfrontbiblioteca-cf9ac.web.app/"));
 
         corsConfiguration.setAllowedHeaders(Arrays.asList("Origin",
                 "Access-Control-Allow-Origin", "Content-Type",
